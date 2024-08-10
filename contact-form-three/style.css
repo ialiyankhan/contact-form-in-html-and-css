@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-container{
+    width: 80%;
+    margin: 68px auto;
+    height: 600px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.form-container .left-side{
+    width: 45%;
+    background-image:url(/images/pexels-djordje-petrovic-590080-2102416.jpg);
+    background-size: cover;
+}
+
+.form-container .right-side{
+    width: 55%;
+    background-color: #333333;
+    padding: 50px 50px;
+    color: #fff;
+}
+
+.contact-form h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.form-control{
+    font-size: 1.2rem;
+}
+
+.form-control .form-split{
+    display: flex;
+    gap: 20px;
+}
+
+.form-control .form-split .input-data {
+    margin-top: 30px;
+}
+
+.form-control .form-split .input-data input{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-control .message{
+    margin-top: 15px;
+}
+
+.form-control .message textarea{
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+
+button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #4EB0E5;
+    color: #fff;
+    font-size: 1.2rem;
+}

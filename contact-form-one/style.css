@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-container{
+    margin: 68px auto;
+    height: 600px;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 100px  100px;
+}
+
+.form-container .form-control .form-split {
+    display: flex; gap: 50px;
+}
+
+.form-container .form-control .input-fields{
+    margin-top: 20px;
+}
+
+.form-container .form-control .form-split input{
+    padding: 6px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.form-container .form-control .message{
+    margin-top: 50px;
+}
+
+.form-container .form-control .message textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    margin-top: 10px;
+}
+
+.form-container .form-control .btn{
+    margin-top: 20px;
+}
+
+.form-container .form-control .btn button{
+    padding: 10px;
+    width: 20%;
+    /* border-radius: 20px; */
+    background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+    border-radius: 100px;
+    filter: blur(0.5px);
+    cursor: pointer;
+    color: #fff;
+}
+
+footer p{
+    margin-top: 70px;
+}

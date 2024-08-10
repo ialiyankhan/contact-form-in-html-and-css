@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-container{
+    margin: 68px auto;
+    height: 600px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container .left-side{
+    width: 55%;
+    padding: 50px 50px;
+    border-right: 2px solid #DFDFDF;
+}
+
+.left-side .form-control .form-split-one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.left-side .form-control .form-split-one input{
+    width: 100%;
+    margin-top: 15px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.left-side .form-control .form-split-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.left-side .form-control .form-split-two input{
+    width: 100%;
+    margin-top: 15px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.left-side .form-control .form-split-two .input-fields-email{
+    width: 46%;
+}
+
+.left-side .form-control .form-split-two .input-fields-number{
+    width: 46%;
+}
+
+.left-side .form-control .message p{
+    margin-top: 20px;
+}
+
+.left-side .form-control .message textarea{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.left-side form .btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.left-side form .btn button{
+    padding: 10px;
+    width: 40%;
+    background-color: #243B2A;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+.form-container .right-side{
+    width: 45%;
+    padding: 50px 50px;
+    color: #939393;
+}
+
+
+.right-side .contact-us-container p{
+    margin-top: 20px;
+}
+
+.right-side .contact-us-container .our-info{
+    margin-top: 50px;
+}
+
+.right-side .contact-us-container .social-media-icons{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.right-side .contact-us-container .social-media-icons a{
+    font-size: 2rem;
+    padding: 10px;
+    color: #939393;
+}
